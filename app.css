@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.img{
+    width: 400px;
+    height: 350px;
+    border-radius: 10%;
+    flex: 33%;
+    padding: 15px;
+    position: relative;
+}
+
+
+.meme{
+    position: relative;
+ 
+}
+
+.top{
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    top: 5px;
+    color: white;
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.bottom{
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    color: white;
+    bottom: 40px;
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size:50px;
+    text-transform: uppercase;
+}
+
+form{
+    line-height:1.5;
+    width: 800px;
+    margin: 20px auto;
+}
+
+input{
+    float:right;
+    width:80%;
+    height:20px;
+}
+
+.container{
+    width:100%;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+
+#results{
+    display:flex;
+    flex-wrap: wrap;
+  
+}
+
+.top-section{
+    text-align:center;
+    height: 130px;
+    text-transform:uppercase;
+    background-color: steelblue;
+    margin-top: 0;
+    color:white;
+
+}
+
+.overlay{
+    position:absolute;
+    top:80px;
+    bottom:0;
+    left:128px;
+    right:0;
+    opacity:0;
+}
+
+.overlay:hover{
+    opacity: 0.5;
+}
+
+button{
+    height:30px;
+    border-radius:15%;
+    background-color: white;
+    color:steelblue;
+    border: 1px solid steelblue;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color:steelblue;
+    color:white;
+    transition: background 0.5s;
+    outline:none;
+}
+
+input:hover{
+    border:1px solid steelblue;
+}
+
+hr{
+    opacity: 0.5;
+}
+
+h1{
+    margin:0;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
